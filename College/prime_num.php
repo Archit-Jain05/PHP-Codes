@@ -16,7 +16,7 @@ function isPrime($number) {
 }
 for($i=0;$i<=500;$i++) {
 if (isPrime($i)) {
-    echo $i;
+    echo $i."</br>";
 }
 
 }
