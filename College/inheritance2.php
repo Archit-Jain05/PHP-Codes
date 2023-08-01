@@ -1,5 +1,3 @@
-
-
 <?php 
 
 /*write a program to implement a superclass student , make 2 classes regular /
