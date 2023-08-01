@@ -8,3 +8,5 @@ if($a>10) {
 else {
     echo "Not allowed to watch tv";
 }
+
+?>

@@ -11,3 +11,5 @@ elseif($a>12 and $a<20) {
 else {
     echo "Have a good night!";
 }
+
+?>
