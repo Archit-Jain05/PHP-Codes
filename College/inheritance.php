@@ -28,7 +28,7 @@ class faculty extends person {
     }
 
     public function getFac() {
-        echo 'Name: '.$this->name.'<br>Designation: '.$this->des.'<br>Experience: '.$this->exp.'<br>Salary: '.$this->sal;
+        echo '<br>Name: '.$this->name.'<br>Designation: '.$this->des.'<br>Experience: '.$this->exp.'<br>Salary: '.$this->sal.'<br>';
     }
 }
 
@@ -42,9 +42,16 @@ class admin extends person {
         $this->sal=$sal;
         $this->doj=$doj;
     }
+
+    public function getAdmin() {
+        echo '<br>Name: '.$this->name.'<br>Designation: '.$this->des.'<br>Salary: '.$this->sal.'<br>Date of joining: '.$this->doj;
+    }
 }
 
 $f1= new faculty('Archit','Teacher',20,150000);
 $f1->getFac();
+
+$a1= new admin('Archit','Teacher',20000,'15/10/2003');
+$a1->getAdmin();
 
 ?>
