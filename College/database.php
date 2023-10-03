@@ -15,7 +15,7 @@ $sql = "INSERT INTO `employee`(`Employee_ID`, `Name`, `Designation`, `Department
 $conn->query($sql);
 $sql = "INSERT INTO `employee`(`Employee_ID`, `Name`, `Designation`, `Department`) VALUES ('T002','Chintan','CEO','IT')";
 $conn->query($sql);
-$sql = "INSERT INTO `employee`(`Employee_ID`, `Name`, `Designation`, `Department`) VALUES ('T003','Khushi','Pune','IT')";
+$sql = "INSERT INTO `employee`(`Employee_ID`, `Name`, `Designation`, `Department`) VALUES ('T003','Khushi','Peun','IT')";
 $conn->query($sql);
 $sql = "INSERT INTO `employee`(`Employee_ID`, `Name`, `Designation`, `Department`) VALUES ('T008','Muskaan','Senior Managaer','IT')";
 $conn->query($sql);
